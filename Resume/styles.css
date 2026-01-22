@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eef2ff;
+    font-family: "Segoe UI", sans-serif;
+    padding: 150px;
+}
+
+.resume {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.header h1 {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.role {
+    font-size: 16px;
+    color: #0e2061;
+    margin-top: 5px;
+}
+
+.contact,
+.links {
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.links a {
+    color: #0e2061;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-top: 30px;
+}
+
+section h2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #e5e7eb;
+    color: #111827;
+}
+
+.edu {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skills li {
+    list-style: none;
+    background: #eef2ff;
+    color: #1e3a8a;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+ul {
+    margin-left: 18px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+.download-btn {
+    display: block;
+    margin: 40px auto 0;
+    padding: 12px 22px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background: #0e2061;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+    background: #0e2061;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #6b7280;
+}
